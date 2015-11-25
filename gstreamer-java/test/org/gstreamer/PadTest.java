@@ -28,11 +28,7 @@ import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicReference;
 
 import org.gstreamer.event.TagEvent;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 /**
  *
