@@ -128,7 +128,7 @@ public final class Gst {
             argvRef = new PointerByReference(argvMemory);
             argcRef = new IntByReference(args.length + 1);
         }
-        String[] toStringArray() {
+        public String[] toStringArray() {
             //
             // Unpack the native arguments back into a String array
             //
